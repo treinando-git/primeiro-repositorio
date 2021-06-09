@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Site</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site</title>
 
-	<style>
-		body {
-			background-color: #222222;
-		}
+  <style>
+    body {
+      background-color: #222222;
+    }
 
-		h1, p {
-			color: #e6e6e6;
-			user-select: none;
-		}
-	</style>
+    h1, p {
+      color: #e6e6e6;
+      user-select: none;
+    }
+  </style>
 </head>
 <body>
-	<h1>Nosso site</h1>
-	<p>Seja bem vindo!</p>
+  <h1>Nosso site</h1>
+  <p>Seja bem vindo!</p>
 
-	<script>
-		const p = document.querySelector("p");
-		p.style.color = 'rgb(230, 230, 230)';
+  <script>
+    const p = document.querySelector("p");
+    p.style.color = 'rgb(230, 230, 230)';
 
-		p.addEventListener('click', () => {
-			const corAtual = p.style.color;
+    p.addEventListener('click', () => {
+      const corAtual = p.style.color;
 
-			if (corAtual === 'rgb(230, 230, 230)') {
-				p.style.color = 'rgb(255, 85, 85)';
-			} else {
-				p.style.color = 'rgb(230, 230, 230)';
-			}
-		});
-	</script>
+      if (corAtual === 'rgb(230, 230, 230)') {
+        p.style.color = 'rgb(255, 85, 85)';
+      } else {
+        p.style.color = 'rgb(230, 230, 230)';
+      }
+    });
+  </script>
 </body>
 </html>
