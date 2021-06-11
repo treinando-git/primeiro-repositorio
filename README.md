@@ -1,4 +1,2 @@
 # Primeiro Repositório
-Meu primeiro repositório no Github!
-
-*Em breve nosso site estará no ar!*
+Este repositório é destinado ao estudo de Git e Github, com ênfase no trabalho colaborativo.
